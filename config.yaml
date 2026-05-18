@@ -1,0 +1,34 @@
+language: zh-tw
+base_url: "https://codelabs.developers.google.com"
+index_url: "https://codelabs.developers.google.com/?hl=zh-tw"
+sitemap_url: "https://codelabs.developers.google.com/sitemap.xml"
+
+output:
+  pdf_dir: "PDF"
+  output_dir: "output"
+  html_dir: "output/html"
+  index: "output/index.json"
+  manifest: "output/manifest.csv"
+  errors: "output/errors.json"
+  verification: "output/verification.csv"
+  log: "output/run.log"
+
+render:
+  format: "A4"
+  print_background: true
+  margin:
+    top: "16mm"
+    bottom: "16mm"
+    left: "12mm"
+    right: "12mm"
+  timeout_ms: 60000
+  wait_after_expand_ms: 2000
+
+crawler:
+  delay_ms: 1000
+  retries: 3
+  concurrency: 1
+
+filename:
+  max_title_chars: 80
+  pattern: "{index:03d}__{slug}__{title_short}.pdf"

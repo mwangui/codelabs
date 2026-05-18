@@ -1,0 +1,11 @@
+{
+  "index_count": 873,
+  "pdf_count": 872,
+  "status_counts": {
+    "passed": 872,
+    "failed": 1
+  },
+  "errors_count": 1,
+  "final_report": "output/final_report.csv",
+  "pdf_dir": "PDF"
+}

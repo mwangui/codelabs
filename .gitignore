@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+output/index.json
+output/manifest.csv
+output/errors.json
+output/verification.csv
+output/run.log
+output/html/*.html
